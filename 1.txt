@@ -1,0 +1,13 @@
+cargo update -p lexical-core
+or
+[patch.crates-io]
+lexical-core = {git = 'https://github.com/Alexhuszagh/rust-lexical' }
+
+brew install libpq
+brew install postgresql
+ cargo install diesel_cli --no-default-features --features "postgres sqlite"
+
+
+https://docs.rs/crate/diesel_cli/1.4.0
+
+
